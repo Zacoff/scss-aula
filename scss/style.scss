@@ -1,0 +1,17 @@
+@import 'reset';
+
+
+
+.sucesso{
+    width: 100px;
+    height: 100px;
+    background: blue; 
+}
+
+$corBg: rgb(216, 17, 17);
+@mixin setarLargura() {
+    width: 1200px;
+}
+div{
+    @extend .sucesso;
+}
